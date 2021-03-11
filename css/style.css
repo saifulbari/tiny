@@ -1,0 +1,337 @@
+/*  Framework */
+.......................
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a.a:hover{
+    text-decoration: none;
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,a,ol,ul,input,button,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #fff;
+}
+.bg-oreng{
+    background-color: #ffc61a;
+}
+.bg-grey{
+    background-color: #f5f4f2;
+}
+.text-oreng{
+    color: #ffc61a ;
+}
+.text-dark{
+    color: #000 !important;
+}
+.btn{
+    padding: 0.4rem 1.4rem;
+    font-size: 1.3rem;
+}
+.btn-dark{
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+    letter-spacing: 1px;
+}
+.btn-dark:hover{
+    background-color: #000;
+    color: #ffc61a;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+header{
+    background: url(../img/Header/Header-bg.jpg);
+    padding: 27px 0px;
+    background-repeat: no-repeat;
+    height: 739px;
+}
+.stiky-bg .navbar.navbar-expand-lg.navbar-dark.uk-sticky.uk-active.uk-sticky-below.uk-sticky-fixed {
+    background: red;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #000;
+    background-color: #ffc61a;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 2.5px 18px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 2.5px 18px;
+    transition: 0.4s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #000;
+    background-color: #ffc61a;
+    transition: 0.4s;
+
+}
+header .header-info h3{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header .header-info h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: #fff;
+}
+header .header-info p{
+    letter-spacing: 6px;
+}
+
+/*end header*/
+
+/*start cab*/
+
+.cab{
+    height: 705px;
+}
+.cab .cab-left p{
+    color: #101010;
+    text-transform: lowercase;
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px 0px;
+    font-family: 'Raleway';
+
+}
+.cab .cab-left h4 h1{
+    font-weight: bold;
+}
+.cab .cab-left h4{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 32px;
+}
+.cab .cab-left h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.cab-right{
+    background-color: #fff;
+    width: 380px;
+}
+.cab .cab-right h1{
+    background-color: #000;
+    padding: 22px;
+}
+.cab .cab-right form input[type="text"]{
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 3px solid #e4e4e4;
+    border-radius: 0;
+}
+.cab .cab-right form select{
+    border:0;
+    border-bottom: 3px solid #e4e4e4;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.cab-right form input.form-control:focus{
+    border-color: #ffc61a;
+    box-shadow: none;
+}
+.cab-right form select.form-control:focus{
+    border-color: #ffc61a;
+    box-shadow: none;
+}
+
+/*end cab*/
+
+/*start card
+-------------------------------------------------*/
+
+.card p{
+    text-transform: lowercase;
+    color: #101010; 
+}
+.card h2{
+    color: #000;
+}
+
+.card{
+    border-radius: 0;
+    border:none;
+    margin-top: 55px;
+    cursor: pointer;
+}
+.card:hover{
+    background: #ffc61a;
+}
+
+.card:hover>.card-body h1{
+    color: #000;
+}
+
+.card:hover>.card-body a{
+    color: #fff;
+    background: #000 !important;
+}
+
+.btn{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.2;
+    padding: 5px 15px;
+}
+
+.card-body a {
+    background: orange;
+}
+
+.card-body h1 {
+    color: red;
+}
+
+.card img{
+    margin-top: -80px;
+}
+.card-star img{
+    margin-left: 101px;
+    position: absolute;
+    margin-top: -74px;
+}
+/*end card
+-------------------------------------------------*/
+
+/*start content
+-------------------------------------------------*/
+
+.content{
+    background-image: url(../img/Content/content-bg.jpg);
+    padding: 80px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 876px;
+}
+.font-ff{
+    font-family: raleway;
+}
+.content .content-info{
+    margin-top: 80px;
+}
+.content .content-info img{
+    position: absolute;
+}
+.content .content-info .content-text{
+    position: relative;
+    margin-left: 120px;
+}
+.content .content-info .content-text p{
+    font-size: 17px;
+}
+/*end content--*/
+
+/*start service
+-------------------------------------------------*/
+.text-black{
+    color: #000;
+}
+.service{
+    padding-top: 80px;
+    min-height: 652px;
+}
+.service-left{
+    padding: 58px;
+}
+.service-left p{
+    font-size: 17px;
+}
+/*end-service*/
+/*start testim
+-------------------------------------------------*/
+.testim{
+    background: url(../img/Testim/testim-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    height: 610px;
+}
+.testim .testim-box{
+    background-color: #040707;
+    border-radius: 50px;
+    padding: 40px;
+}
+.testim .testim-box p{
+    font-size: 18px;
+}
+.testim .testim-box img{
+    position: absolute;
+}
+.testim .testim-box h4,h5{
+    margin-left: 90px;
+}
+
+/*end-testim*/
+/*start info
+-------------------------------------------------*/
+.info{
+    padding: 50px 0px;
+}
+.info h1{
+    font-size: 50px;
+}
+.info h3, h1{
+    color: #000;
+    font-weight: 900;
+}
+/*end-info*/
+
+/*start info
+-------------------------------------------------*/
+.contact{
+    background: url(../img/contact/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.contact p{
+    font-size: 17px;
+}
+.contact h4{
+    border-bottom: 7px solid #ffc61a;
+}
+.contact .about-cab-hub, .download, .contact-info{
+    margin: 0px 20px;
+}
+.contact .about-cab-hub ul li a{
+    color: #ffc61a;
+    padding: 0px 5px;
+    font-size: 20px;
+}
+.contact .download span{
+    font-size: 22px;
+}
+.contact .download i{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 30px;
+}
+.contact .download i.fa-apple{
+    margin-left: 70px;
+}
+.contact .contact-info li i{
+    position: absolute;
+    font-size: 23px;
+}
+.contact .contact-info p{
+    position: relative;
+    margin-left: 50px;
+    font-size: 20px;
+}
